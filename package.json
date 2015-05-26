@@ -1,0 +1,8 @@
+{
+  "description": "simple filter chain using es6 generators",
+  "main": "index.js",
+  "author": "tundrax <sherzod@gmail.com>",
+  "dependencies": {
+    "co": "^4.5.4"
+  }
+}
