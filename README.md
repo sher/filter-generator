@@ -1,3 +1,6 @@
+## Example
+
+```javascript
 var co = require('co');
 
 function *noop() {}
@@ -17,8 +20,7 @@ function compose(filters){
   }
 }
 
-// you can create any group of filters,
-// not just limit to rethinkdb api
+// you can create any group of filters
 var filters = [
 
   function *(next) {
@@ -48,3 +50,5 @@ var article = {
 
 var it = co.wrap(compose(filters));
 it.call(article);
+
+```
